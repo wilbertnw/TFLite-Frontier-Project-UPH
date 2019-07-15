@@ -4,7 +4,7 @@
   <h1 align="center">TFLite-Frontier-Project-UPH</h1>
   
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A Ligth-Weight Image Classifier Android App
     <br />
   </p>
 </p>
