@@ -59,6 +59,9 @@ For development purposes, it is also possible to test the trained model using im
 py -m scripts.label_image --graph=tf_files/retrained_graph.pb  --image=PATH_TO_YOUR_TEST_IMAGE
 ```
 
+## About MobileNet
+
+MobileNet is a snall efficient convolution neural network. "convolutionl" 
 ## Team Member
 
 Ricky - 00000020025 - rickygani10@gmail.com - Informatics 2016 Universitas Pelita Harapan
