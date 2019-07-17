@@ -61,7 +61,13 @@ py -m scripts.label_image --graph=tf_files/retrained_graph.pb  --image=PATH_TO_Y
 
 ## About MobileNet
 
-MobileNet is a snall efficient convolution neural network. "convolutionl" 
+MobileNet is a snall efficient convolution neural network. "convolution" means that the same calculation are performed at each location in the image.
+
+MobileNet uses two kind of operations: a depthwise convolution and a 1x1 a pointwise convolusion. the architecture is different than the "traditional" CNN's which instead using a 3x3 convolution layer.
+
+a few things that MobileNet is more favorable beacuse they're insanely small, fast, remarkably accurate, and and easy to tune for resources vs.accuracy. which is the reason why it is so important for our project, the mobile deep learning task are mostly performed in the cloud, and this is change quickly. it is more practical to use a system that has no requirement of internet connection, it is more efficient and faster.
+
+
 ## Team Member
 
 Ricky - 00000020025 - rickygani10@gmail.com - Informatics 2016 Universitas Pelita Harapan
